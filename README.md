@@ -12,7 +12,7 @@ This module updates admin color and resize some parts to have a more compact vie
 ###### Install Extension
 ```
 Download zip file.
-Unzip it in app/code folder. 
+Unzip it in project root folder. 
 php bin/magento module:enable Hallandellon_AdminTheme
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy -f
