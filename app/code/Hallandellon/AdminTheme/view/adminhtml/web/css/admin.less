@@ -1,0 +1,146 @@
+@primary: #1B435B;
+@text: #FFF;
+@secondary: #366480;
+
+/*Login layout*/
+.page-layout-admin-login {
+    background: @primary;
+
+    .page-wrapper {
+        box-shadow: 0px 0px 12px 0px #141414;
+        border-radius: 10px;
+    }
+
+    .admin__legend {
+        color: @primary;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 400;
+    }
+
+    .login-header {
+        text-align: center;
+    }
+
+    .form-actions {
+        width: 100%;
+
+        .actions {
+            .action-login {
+                background-color: @primary;
+                border-color: transparent;
+                border-radius: 8px;
+                width: 100%;
+            }
+        }
+    }
+
+    a.action-forgotpassword {
+        color: @primary;
+    }
+
+    footer.login-footer {
+        color: @text;
+    }
+}
+
+/*Content*/
+a.logo {
+    background-color: transparent;
+    height: auto;
+    padding: 10px 0 5px;
+}
+
+.menu-wrapper .logo .logo-img {
+    width: 80%;
+    height: auto;
+}
+
+/*button primary*/
+.action-primary,
+.abs-action-primary,
+button.primary,
+.page-actions>button.action-primary,
+.page-actions .page-actions-buttons>button.action-primary,
+.page-actions>button.primary,
+.page-actions .page-actions-buttons>button.primary,
+.block-footer .action-add.primary,
+.page-actions>.block-footer .action-add.action-primary,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-primary,
+.page-actions>.block-footer .action-add.primary,
+.page-actions .page-actions-buttons>.block-footer .action-add.primary,
+.page-actions-buttons button.ordersuccess-current {
+    background-color: @primary  !important;
+    border-color: transparent !important;
+    color: @text  !important;
+    text-shadow: none !important;
+}
+
+/*button hover, active, focus*/
+.action-primary:hover,
+.action-primary:active,
+.action-primary:focus,
+.abs-action-primary:hover,
+.abs-action-primary:active,
+.abs-action-primary:focus,
+button.primary:hover,
+button.primary:active,
+button.primary:focus,
+.page-actions>button.action-primary:hover,
+.page-actions>button.action-primary:active,
+.page-actions>button.action-primary:focus,
+.page-actions .page-actions-buttons>button.action-primary:hover,
+.page-actions .page-actions-buttons>button.action-primary:active,
+.page-actions .page-actions-buttons>button.action-primary:focus,
+.page-actions>button.primary:hover,
+.page-actions>button.primary:active,
+.page-actions>button.primary:focus,
+.page-actions .page-actions-buttons>button.primary:hover,
+.page-actions .page-actions-buttons>button.primary:active,
+.page-actions .page-actions-buttons>button.primary:focus,
+.block-footer .action-add.primary:hover,
+.block-footer .action-add.primary:active,
+.block-footer .action-add.primary:focus,
+.page-actions>.block-footer .action-add.action-primary:hover,
+.page-actions>.block-footer .action-add.action-primary:active,
+.page-actions>.block-footer .action-add.action-primary:focus,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-primary:hover,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-primary:active,
+.page-actions .page-actions-buttons>.block-footer .action-add.action-primary:focus,
+.page-actions>.block-footer .action-add.primary:hover,
+.page-actions>.block-footer .action-add.primary:active,
+.page-actions>.block-footer .action-add.primary:focus,
+.page-actions .page-actions-buttons>.block-footer .action-add.primary:hover,
+.page-actions .page-actions-buttons>.block-footer .action-add.primary:active,
+.page-actions .page-actions-buttons>.block-footer .action-add.primary:focus {
+    background-color: @secondary  !important;
+    border-color: transparent !important;
+}
+
+.menu-wrapper:before,
+.data-grid th,
+.admin__menu [class*='level-']:not(.level-0) a:hover {
+    background-color: @primary  !important;
+}
+
+.admin__menu .level-0>a {
+    color: @text  !important;
+}
+
+.admin__menu .level-0:hover>a,
+.admin__menu .level-0>.submenu,
+.admin__menu .level-0._active>a {
+    background-color: @secondary  !important;
+}
+
+.admin__menu .level-0>.submenu {
+    box-shadow: none !important;
+}
+
+.admin__menu .submenu .parent .submenu-group-title {
+    color: @text  !important;
+}
+
+.admin__menu .action-close:before {
+    color: @text;
+}

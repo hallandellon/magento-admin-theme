@@ -1,0 +1,146 @@
+body {
+    font-size: 12px;
+
+    &:not(.adminhtml-auth-login) {
+
+        .admin__menu {
+            .level-0>a {
+
+                padding: 6px 0 !important;
+                font-size: 9px !important;
+                min-height: 30px !important;
+
+                span {
+                    font-size: 9px !important;
+                }
+            }
+        }
+
+        .admin__field,
+        .admin__scope-old {
+            &:not(.admin__field-group-additional) {
+                margin: 10px 0 !important;
+            }
+
+            input,
+            select,
+            label {
+                font-size: 12px !important;
+            }
+
+            .admin__field-label {
+                label {
+                    span {
+                        &::before {
+                            font-size: 9px !important;
+                            bottom: -1rem !important;
+                            color: #bbb !important;
+                        }
+
+                        &::after {
+                            font-size: 10px !important;
+                            margin-left: 5px !important;
+                        }
+                    }
+                }
+            }
+
+            .admin__field-control {
+                margin-left: 20px !important;
+
+                &.admin__control-grouped {
+                    margin-left: 0 !important;
+                }
+            }
+        }
+
+        .section-config {
+            table {
+                tr {
+                    td {
+                        padding-top: 10px !important;
+                    }
+                }
+            }
+        }
+
+        .fieldset-wrapper-title,
+        .section-config .entry-edit-head a {
+            background-color: #366480 !important;
+            opacity: .7;
+
+        }
+
+        .fieldset-wrapper-title strong,
+        .section-config .entry-edit-head a {
+            padding: 10px !important;
+            color: #fff !important;
+            width: 100%;
+            font-size: 12px !important;
+
+            &::before {
+                left: auto !important;
+                right: 10px !important;
+                top: 50% !important;
+                transform: translateY(-50%) !important;
+                border-bottom-color: #FFF !important;
+                border-top-color: #FFF !important;
+            }
+        }
+
+        table.data-grid {
+
+            th,
+            td {
+                font-size: 12px !important;
+                padding: 5px 10px !important;
+            }
+
+            .data-grid-checkbox-cell-inner {
+                padding: 0 !important;
+                text-align: center !important;
+            }
+
+            img.admin__control-thumbnail {
+                width: 30px;
+            }
+        }
+
+        #system_config_tabs {
+
+            .config-nav-block {
+                .admin__page-nav-title {
+                    padding: 10px !important;
+                    font-size: 11px !important;
+
+                    &::before,
+                    &::after {
+                        top: 50% !important;
+                        transform: translateY(-50%) !important;
+                    }
+                }
+
+                .admin__page-nav-item {
+                    &.item {
+                        .item-nav {
+                            padding: 10px !important;
+                        }
+                    }
+                }
+            }
+
+            &.magefan-tab {
+                .admin__page-nav-title {
+
+                    &::before {
+                        left: 5px !important;
+                    }
+
+                    strong {
+                        margin-left: 20px !important;
+                    }
+                }
+            }
+        }
+    }
+}
